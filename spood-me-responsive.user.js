@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 function addCSS(fileName) {
-  var body = document.head;
+  var head = document.head;
   var link = document.createElement("link");
   link.type = "text/css";
   link.rel = "stylesheet";
