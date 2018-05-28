@@ -3,9 +3,10 @@
 // @description A userscript which tries to make spood.me less of a hassle to use on a small screen.
 // @copyright 2018, Dave Spengeler (davespengeler.ch)
 // @icon https://raw.githubusercontent.com/theyve/spood-me-responsive/master/icon-32x32.png
-// @version 0.1.8
+// @version 0.1.9
 // @license GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
 // @match *://*.spood.me/*
+// @run-at document-idle
 // ==/UserScript==
 
 function addCSS(fileName) {
