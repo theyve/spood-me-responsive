@@ -4,6 +4,7 @@
 // @copyright 2018, Dave Spengeler (davespengeler.ch)
 // @icon https://spood.me/img/site/logo.png
 // @version 0.1.0
+// @include *.spood.me/*
 // ==/UserScript==
 
 function addCSS(fileName) {
