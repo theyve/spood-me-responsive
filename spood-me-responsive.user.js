@@ -9,14 +9,11 @@
 // ==/UserScript==
 
 function addCSS(fileName) {
-
   var head = document.head;
   var link = document.createElement("link");
-
   link.type = "text/css";
   link.rel = "stylesheet";
   link.href = fileName;
-
   head.appendChild(link);
 }
 function addViewportMetatag() {
@@ -25,7 +22,6 @@ function addViewportMetatag() {
   meta.content = "width=device-width, initial-scale=1";
   document.getElementsByTagName('head')[0].appendChild(meta);
 }
-
 
 console.log("es funtzt, hoffentlich!");
 
