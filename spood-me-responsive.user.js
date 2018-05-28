@@ -2,6 +2,7 @@
 // @name spood.me - responsive
 // @description A userscript which tries to make spood.me less of a hassle to use on a small screen.
 // @copyright 2018, Dave Spengeler (davespengeler.ch)
+// @license None
 // @icon https://spood.me/img/site/logo.png
 // @version 0.1.0
 // ==/UserScript==
