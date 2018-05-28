@@ -6,14 +6,16 @@
 // @version 0.1.0
 // ==/UserScript==
 
+function addCSS(fileName) {
 
+  var head = document.head;
+  var link = document.createElement("link");
 
-function loadcssfile(filename) {
-  var fileref = document.createElement("link")
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.href = fileName;
 
-  fileref.setAttribute("rel", "stylesheet")
-  fileref.setAttribute("type", "text/css")
-  fileref.setAttribute("href", filename)
+  head.appendChild(link);
 }
 
-loadcssfile("style.css")
+addCSS('https://rawgit.com/theyve/spood-me-responsive/master/style.css');
