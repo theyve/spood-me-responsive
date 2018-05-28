@@ -15,7 +15,6 @@ function addCSS(fileName) {
   link.rel = "stylesheet";
   link.href = fileName;
   body.insertAdjacentHTML('afterbegin', link);
-  ;
 }
 function addViewportMetatag() {
   var meta = document.createElement('meta');
