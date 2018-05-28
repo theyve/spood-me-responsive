@@ -20,5 +20,5 @@ function addCSS(fileName) {
   head.appendChild(link);
 }
 
-console.log("es funtzt!");
+console.log("es funtzt, hoffentlich!");
 addCSS('https://rawgit.com/theyve/spood-me-responsive/master/style.css');
