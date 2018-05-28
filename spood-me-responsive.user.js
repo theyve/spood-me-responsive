@@ -3,7 +3,7 @@
 // @description A userscript which tries to make spood.me less of a hassle to use on a small screen.
 // @copyright 2018, Dave Spengeler (davespengeler.ch)
 // @icon https://raw.githubusercontent.com/theyve/spood-me-responsive/master/icon-32x32.png
-// @version 0.1.5
+// @version 0.1.6
 // @license GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
 // @match *://*.spood.me/*
 // ==/UserScript==
@@ -14,7 +14,7 @@ function addCSS(fileName) {
   link.type = "text/css";
   link.rel = "stylesheet";
   link.href = fileName;
-  body.insertAdjacentHTML(afterbegin, link);
+  body.insertAdjacentHTML('afterbegin', link);
   ;
 }
 function addViewportMetatag() {
