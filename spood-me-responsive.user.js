@@ -5,7 +5,7 @@
 // @icon https://raw.githubusercontent.com/theyve/spood-me-responsive/master/icon-32x32.png
 // @version 0.1.1
 // @license GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
-// @include *.spood.me/*
+// @match *://www.spood.me/*
 // ==/UserScript==
 
 function addCSS(fileName) {
