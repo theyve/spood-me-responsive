@@ -4,6 +4,7 @@
 // @copyright 2018, Dave Spengeler (davespengeler.ch)
 // @icon https://spood.me/img/site/logo.png
 // @version 0.1.0
+// @license GPL-3.0+; http://www.gnu.org/licenses/gpl-3.0.txt
 // @include *.spood.me/*
 // ==/UserScript==
 
