@@ -146,13 +146,13 @@ h1 {
 
 /****** Footer ******/
 
- #page-footer {
-   border: 0;
-   margin: 1rem 0;
-   padding: 0;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: baseline;
+#page-footer {
+  border: 0;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 #page-footer #donate,
 #page-footer .GDYWQHCDFQ {
@@ -309,7 +309,7 @@ h1 {
   margin: 0 !important;
   padding: 1rem !important;
   flex: 0 1 100%;
-  background: #F0F1F3;
+  background-color: #F0F1F3;
 }
 @media(min-width: 700px) {
   #bottom-panel > div:nth-child(2) {
@@ -371,9 +371,6 @@ input[type="text"], input[type="password"] {
   height: 65vh !important;
 }
 
-/******* Sidebar ******/
-.GDYWQHCDCF {
-}
 
 /******* Rangliste ******/
 .GDYWQHCDB1.GDYWQHCDM0 a, .GDYWQHCDB1.GDYWQHCDM0 a:visited,
@@ -419,6 +416,50 @@ input[type="text"], input[type="password"] {
 page-header + div .GDYWQHCDC5 > table > tbody > tr > td {
   display: inline-block;
 }
+
+/******* Shoutbox ******/
+.GDYWQHCDLU {
+  margin: 2rem 0 !important;
+}
+.GDYWQHCDH- > textarea {
+  width: 100% !important;
+  background-color: #F0F1F3;
+  font-size: 1rem;
+  padding: .5rem !important;
+  margin-bottom: .25rem !important;
+  border: 1px solid #e6e9eb !important;
+}
+
+.GDYWQHCDH- > textarea + div .GDYWQHCDK- {
+  padding: 0.5rem 1rem !important;
+  display: block;
+}
+.GDYWQHCDH- > textarea + div img {
+  display: none !important;
+}
+
+/******* Game-overview ******/
+
+*[id^='3protocolEntry'] .GDYWQHCDIX {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-child(1),
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-last-child(2) {
+  flex: 1 0 15%;
+  height: auto !important;
+  width: auto !important;
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX .GDYWQHCDDV {
+  flex: 1 0 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 
 /* hide registration form */
