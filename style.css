@@ -441,23 +441,48 @@ page-header + div .GDYWQHCDC5 > table > tbody > tr > td {
 /******* Game-overview ******/
 
 *[id^='3protocolEntry'] .GDYWQHCDIX {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  margin-top: 1.5rem !important;
 }
 
 *[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-child(1),
 *[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-last-child(2) {
-  flex: 1 0 15%;
   height: auto !important;
   width: auto !important;
+  grid-row: 1;
 }
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-child(1) > img,
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-last-child(2) > img {
+  width: 100% !important;
+  height: auto !important;
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-child(1) {
+  grid-column: 1 / span 3;
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-last-child(2) {
+  grid-column: 10 / span 3;
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-child(2) {
+  grid-row: 2;
+  grid-column: span 12;
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX > div:nth-last-child(1) {
+  height: auto !important;
+  grid-row: 3;
+  grid-column: span 12;
+}
+
 *[id^='3protocolEntry'] .GDYWQHCDIX .GDYWQHCDDV {
-  flex: 1 0 70%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);   
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX .GDYWQHCDDV > div:nth-child(2) {
+  height: 1rem !important;
+  transform: translateY(-600%);
+}
+*[id^='3protocolEntry'] .GDYWQHCDIX .GDYWQHCDDV > div:nth-child(2) > span {
+  font-size: calc(2rem + 10vmin) !important;
 }
 
 
