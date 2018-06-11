@@ -1,11 +1,13 @@
 # spood.me – responsive
-###A Userscript which tries to make spood.me less of a hassle to use on a small screen.**
+
+###A Userscript which tries to make spood.me less of a hassle to use on a small screen.
+
 
 ![Mockup of responsive Website](img/mockup.jpg)
 
 This Userscript overrides the default style of [spood.me](http://spood.me). Thee main goal of it is a better handling of the website on mobile devices. 
 
-*Available only for Android devices with an installed Firefox browser.*
+:warning: *Available only for Android devices with an installed Firefox browser.* :warning:
 
 ## Recommended installation process
 1. On your Android device install [Firefox from the Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.firefox). 
