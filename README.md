@@ -12,7 +12,7 @@ This Userscript overrides the default style of [spood.me](http://spood.me). The 
 ## Recommended installation process
 1. On your Android device install [Firefox from the Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.firefox). 
 2. Add the [Tampermonkey Add-on](https://addons.mozilla.org/firefox/addon/tampermonkey/) to Firefox.
-3. Install the ["spood.me – responsive" Userscript](https://openuserjs.org/scripts/theyve/spood.me_-_responsive) from the OpenUserJS database.
+3. Install the ["spood.me – responsive" Userscript](https://raw.githubusercontent.com/theyve/spood-me-responsive/master/spood-me-responsive.user.js).
 
 
 
