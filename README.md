@@ -5,7 +5,7 @@
 
 ![Mockup of responsive Website](img/mockup.jpg)
 
-This Userscript overrides the default style of [spood.me](http://spood.me). Thee main goal of it is a better handling of the website on mobile devices. 
+This Userscript overrides the default style of [spood.me](http://spood.me). The main goal is a better user experience on mobile devices. 
 
 :warning: *Available only for Android devices with an installed Firefox browser.* :warning:
 
