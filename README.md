@@ -1,8 +1,3 @@
-# spood.me – responsive
-
-**A Userscript which tries to make spood.me less of a hassle to use on a small screen.**
-
-
 ![Mockup of responsive Website](img/mockup.jpg)
 
 This Userscript overrides the default style of [spood.me](http://spood.me). The main goal is a better user experience on mobile devices. 
