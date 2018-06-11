@@ -2,7 +2,7 @@
 
 Dieses Userscript überschreibt die Standardanzeige von [spood.me](http://spood.me). Das Hauptziel ist ein besseres Benutzererlebnis auf mobilen Geräten.
 
-:warning: *Funktioniert nur mit Android Geräten auf denen Firefox installiert ist.* :warning:
+:warning: *Funktioniert nur auf Android Geräten mit dem Firefox Browser.* :warning:
 
 ## Vorgeschlagener Installationsprozess
 1. Lade auf deinem Android Smartphone [Firefox aus dem Google Play Store](https://play.google.com/store/apps/details?id=org.mozilla.firefox) herunter. 
