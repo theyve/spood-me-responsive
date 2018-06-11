@@ -372,8 +372,8 @@ input[type="text"], input[type="password"] {
 }
 
 /******* Google Map ******/
-.GDYWQHCDNY {
-  height: 65vh !important;
+.GDYWQHCDNY, .GDYWQHCDJ4 {
+  min-height: 65vh !important;
 }
 
 
@@ -649,6 +649,48 @@ page-header + div .GDYWQHCDC5 > table > tbody > tr > td {
   padding: .5rem !important;
   margin: .5rem 0 !important;
 }
+
+/****** Let's spood form ******/
+.GDYWQHCDEFB {
+  display: grid;
+  grid-template-columns: repeat(1fr, 12);
+  grid-gap: .5rem;
+  align-items: center;
+  padding: .5rem !important;
+}
+
+.GDYWQHCDEFB > div:first-child {
+  grid-column: span 12;
+  font-weight: bold;
+}
+.GDYWQHCDEFB > div:nth-child(2) {
+  grid-column: span 12;
+  display: contents;
+}
+.GDYWQHCDEFB > div:nth-child(2) > input {
+  grid-column: span 11;
+  width: 100% !important;
+}
+.GDYWQHCDEFB > div:nth-child(2) > img {
+  grid-column: span 1;
+  margin: 0 auto !important;
+}
+.GDYWQHCDEFB > div:nth-child(3) {
+  grid-column: span 11;
+  display: flex;
+  align-items: center;
+}
+.GDYWQHCDEFB > div:nth-child(3) > * {
+  flex: 1 0 auto;
+  text-align: center;
+}
+.GDYWQHCDEFB > div:nth-child(4) {
+  grid-column: span 1;
+  margin: 0 auto !important;
+}
+
+
+
 
 
 /* hide registration form */
