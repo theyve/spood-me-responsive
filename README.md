@@ -1,3 +1,7 @@
+### Die Website spood.me wurde 2019 eingestellt. Dieses Repository hat keine Verwendung mehr.
+
+-----
+
 ![Mockup der responsiven Website](img/mockup.jpg)
 
 Dieses Userscript überschreibt die Standardanzeige von [spood.me](http://spood.me). Das Hauptziel ist ein besseres Benutzererlebnis auf mobilen Geräten. Zusätzlich wird das Ablauf-Datums des Session-Cookies auf zwei Wochen in der Zukunft gesetzt. So bleibt man zwei Wochen lange eingeloggt.
